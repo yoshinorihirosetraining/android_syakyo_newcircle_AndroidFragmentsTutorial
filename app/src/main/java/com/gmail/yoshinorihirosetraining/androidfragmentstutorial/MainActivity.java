@@ -24,4 +24,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, FirstStaticallyEmbeddingActivity.class)); }
     @OnClick(R.id.button_dynamically_adding) public void onClick2(View view) {
         startActivity(new Intent(this, FirstDynamicallyAddingActivity.class)); }
+    @OnClick(R.id.button_runtime_config) public void onClick3(View view) {
+        startActivity(new Intent(this, HandlingRuntimeConfigChangeActivity.class)); }
 }

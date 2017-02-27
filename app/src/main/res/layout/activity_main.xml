@@ -15,4 +15,7 @@
     <Button style="@style/Button"
             android:id="@+id/button_dynamically_adding"
             android:text="Dynamically Adding a Fragment to an Activity" />
+    <Button style="@style/Button"
+            android:id="@+id/button_runtime_config"
+            android:text="Handling Run-Time Configuration Changes" />
 </LinearLayout>
