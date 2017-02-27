@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".FirstStaticallyEmbeddingActivity">
         </activity>
+        <activity android:name=".FirstDynamicallyAddingActivity">
+        </activity>
     </application>
 
 </manifest>
