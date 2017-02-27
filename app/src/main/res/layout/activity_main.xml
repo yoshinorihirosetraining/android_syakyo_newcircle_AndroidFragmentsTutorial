@@ -18,4 +18,7 @@
     <Button style="@style/Button"
             android:id="@+id/button_runtime_config"
             android:text="Handling Run-Time Configuration Changes" />
+    <Button style="@style/Button"
+            android:id="@+id/button_saving_fragment_state"
+            android:text="Saving Fragment State" />
 </LinearLayout>
