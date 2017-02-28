@@ -1,13 +1,10 @@
 package com.gmail.yoshinorihirosetraining.androidfragmentstutorial;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
-import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -30,4 +27,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, StateSavingActivity.class)); }
     @OnClick(R.id.button_retaining) public void onClick5(View view) {
         startActivity(new Intent(this, RetainingActivity.class)); }
+    @OnClick(R.id.button_using_fragments_with_no_layouts) public void onClick6(View view) {
+        startActivity(new Intent(this, NoLayoutActivity.class)); }
 }

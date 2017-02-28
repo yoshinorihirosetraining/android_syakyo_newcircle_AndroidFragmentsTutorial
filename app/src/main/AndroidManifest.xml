@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".RetainingActivity">
         </activity>
+        <activity android:name=".NoLayoutActivity">
+        </activity>
     </application>
 
 </manifest>

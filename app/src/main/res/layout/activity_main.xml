@@ -24,4 +24,7 @@
     <Button style="@style/Button"
             android:id="@+id/button_retaining"
             android:text="Retaining Fragments Across Activity Re-Creation" />
+    <Button style="@style/Button"
+            android:id="@+id/button_using_fragments_with_no_layouts"
+            android:text="Using Fragments with no Layouts" />
 </LinearLayout>
