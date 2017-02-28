@@ -21,4 +21,7 @@
     <Button style="@style/Button"
             android:id="@+id/button_saving_fragment_state"
             android:text="Saving Fragment State" />
+    <Button style="@style/Button"
+            android:id="@+id/button_retaining"
+            android:text="Retaining Fragments Across Activity Re-Creation" />
 </LinearLayout>

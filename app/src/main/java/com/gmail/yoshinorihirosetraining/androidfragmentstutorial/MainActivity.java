@@ -28,4 +28,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, HandlingRuntimeConfigChangeActivity.class)); }
     @OnClick(R.id.button_saving_fragment_state) public void onClick4(View view) {
         startActivity(new Intent(this, StateSavingActivity.class)); }
+    @OnClick(R.id.button_retaining) public void onClick5(View view) {
+        startActivity(new Intent(this, RetainingActivity.class)); }
 }
